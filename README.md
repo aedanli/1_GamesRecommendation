@@ -29,8 +29,3 @@ with the game itself that contributes to success: What makes a game good?
 This data was then used to build a recommender system based on positive ratings and sales. To find the similarity between games, the user-generated tag text was vectorized, and cosine similarity was computed. 
 
 
-
-
-
-
-
