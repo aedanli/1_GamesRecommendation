@@ -6,7 +6,11 @@ For the PDF presentation of this project, see: https://aedanyue.files.wordpress.
 # Motivation:
 As a video game fan, I wanted to understand the kinds of games that might sell well (to improve profits for a company). This data can then be used to 1) predict successful games and 2) recommend potentially fun games to users.
 
-I completed exploratory data analysis, a multiple linear regression (ordinary least squares), and random forest regression models to identify factors predictive of video game success:
+Dataset: https://www.kaggle.com/datasets/fronkongames/steam-games-dataset
+
+Data on 76,000+ games were scraped from Steam, August 8, 2023.
+
+I preprocessed the data, completed exploratory data analysis, and then fit a multiple linear regression (ordinary least squares) as well as a random forest regression model to identify factors predictive of video game success:
 
 # Summary:
 1. Massive Multiplayer games are most popular, but likely requires a high budget to make.
@@ -21,8 +25,10 @@ This analysis identified key areas of future investigation, given limitations in
 3. Our models account for only ~30% of the variance. Need to understand the factors associated
 with the game itself that contributes to success: What makes a game good?
 
-# Recommender System
-This data was used to build a recommender system based on the rating data. The user-generated tag text was vectorized, and the cosine similarity was computed. 
+# Game Recommender System
+This data was then used to build a recommender system based on positive ratings and sales. To find the similarity between games, the user-generated tag text was vectorized, and cosine similarity was computed. 
+
+
 
 
 
