@@ -1,7 +1,7 @@
 # 1_GamesRecommendation:
 Analysis of 76,000+ Steam Games + Recommendation System
 
-For the PDF presentation of this project, see: https://aedanyue.files.wordpress.com/2023/08/steamgames.pdf
+For the PDF presentation of this project, see: https://aedanyue.files.wordpress.com/2023/08/steamgames-2.pdf
 
 # Motivation:
 As a video game fan, I wanted to understand the kinds of games that might sell well (to improve profits for a company). This data can then be used to 1) predict successful games and 2) recommend potentially fun games to users.
